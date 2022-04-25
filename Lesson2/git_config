@@ -1,0 +1,2 @@
+git config --global user.name "Cougar Taylor"
+git config --global user.email ghostcat@byui.edui
