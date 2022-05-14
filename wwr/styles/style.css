@@ -9,7 +9,7 @@ header {
 }
 
 nav a {
-    color: #ED6A5A;
+    color: gold;
 }
 
 nav a:hover {   /* (nav a) and (nav a:hover) are combined */
