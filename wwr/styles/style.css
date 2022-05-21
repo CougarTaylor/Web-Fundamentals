@@ -1,15 +1,25 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Slackey&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    width: 100%;
 }
 
 header {
     background-color: #2A0C4E;
     color: #FDFFF7;
+    width: 100%;
 }
 
 nav a {
     color: gold;
+    padding: 35px;
 }
 
 nav a:hover {   /* (nav a) and (nav a:hover) are combined */
@@ -22,6 +32,9 @@ nav a:hover {   /* (nav a) and (nav a:hover) are combined */
 body {
     background-color: #2A0C4E;
     color: #FDFFF7;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -34,6 +47,10 @@ body {
     background-color: #2d6a4f;
     color: #FDFFF7;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -52,6 +69,8 @@ h4 {
 .msg {
     background-color: #2d6a4f;
     color: #FDFFF7;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 main section {
@@ -66,6 +85,11 @@ main section {
 
 .home-title {
     color: #FDFFF7;
+    /* font-family: 'Maven Pro', sans-serif; */
+    font-family: 'Slackey', cursive;
+    font-size: 2em;
+    letter-spacing: 2px;
+    margin-top: 10px;
 }
 
 .msg h2 {
@@ -74,11 +98,16 @@ main section {
 
 .msg p {
     color: #FDFFF7;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #2d6a4f;
     color: #FDFFF7;
+    padding: 25px 50px;
+    margin: 0;
+    margin-top: 200px;
 }
 
 footer h3{
@@ -96,16 +125,9 @@ footer a:hover {
     color: #FDFFF7;
 }
 
-.logo {
+.logo, .icon {
     width: 80px;
-}
-
-.icon{
-    width: 80px;
-}
-
-#hero-image {
-    width: 100%;
+    padding-top: 10px;
 }
 
 h3 {
@@ -116,3 +138,34 @@ a:hover {
     text-decoration: underline;
 }
 
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+    margin-left: 100px;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+#hero-image {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,42 @@
+.top {
+    width:25%;
+    padding:4%; 
+    background-color: rgb(234, 66, 20);
+}
+
+.middle {
+    width: 40%;
+    padding: 5%;
+    background-color: rgb(133, 0, 137);
+}
+
+.bottom {
+    width: 55%;
+    padding: 6%;
+    background-color: rgb(25, 172, 123);
+}
+
+.word {
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    margin: 0 auto;
+}
+
+.block {
+    background-color: navy;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.right {
+    float: right;
+    background-color: navy;
+}
+
+.left {
+    float: left;
+    background-color: navy;
+    
+}
