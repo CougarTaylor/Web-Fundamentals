@@ -8,20 +8,20 @@ Fonts are separated by a | */
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #5c4d7d   ;
-  --secondary-color: #892b64 ;
-  --accent1-color: #292b64;
-  --accent2-color: #9999ad;
+  --secondary-color: #2d6a4f ;
+  --accent1-color: #2A0C4E;
+  --accent2-color: gold;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Slackey";
   --paragraph-font: Maven Pro, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #27233A;  /* headlines on a white background */ 
-  --headline-color-on-color: #EAEFD3; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #FF6663; /* paragraph text on a white background */ 
+  --headline-color-on-white: #2A0C4E;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #2d6a4f; /* paragraph text on a white background */ 
   --paragraph-color-on-color: black; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #FF6663  ;
+  --paragraph-background-color: #2d6a4f  ;
   --nav-link-color: black;
   --nav-background-color: #30BCED;
   --nav-hover-link-color: #FDFFF7;
