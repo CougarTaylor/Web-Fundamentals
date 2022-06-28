@@ -80,16 +80,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* .row1 {
-    grid-column: 1;
-}
-.row2 {
-    grid-column: 2;
-}
-.row3 {
-    grid-column: 3;
-} */
-
 footer {
     background-color: rgb(119, 81, 155);
     display: flex;
