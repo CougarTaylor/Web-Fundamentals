@@ -5,23 +5,23 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: rgb(119, 81, 155) ;
-  --secondary-color: #FDF0D5 ;
+  --primary-color: #77519b ;
+  --secondary-color: #FFC0CB ;
   --accent1-color: #C1121F;
-  --accent2-color: #669BBC;
+  --accent2-color: #2196F3;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Abril Fatface";
   --paragraph-font: Roboto Condensed, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: rgb(119, 81, 155);  /* headlines on a white background */ 
+  --headline-color-on-white: #77519b;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
+  --paragraph-background-color: #FFC0CB  ;
+  --nav-link-color: #77519b;
+  --nav-background-color: white;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
 }
