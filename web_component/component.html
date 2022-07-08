@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="js.js"></script>
+    <title>Web Composition</title>
+</head>
+<body>
+    <header>
+    </header>
+<main>
+    <div class="container">
+
+        <!-- Full-width images with number text -->
+        <div class="mySlides">
+          <div class="numbertext">1 / 6</div>
+            <img src="./images/steak.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">2 / 6</div>
+            <img src="./images/ham.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">3 / 6</div>
+            <img src="./images/fish.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">4 / 6</div>
+            <img src="./images/chicken.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">5 / 6</div>
+            <img src="./images/nuggets.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">6 / 6</div>
+            <img src="./images/hemburger.jpg" style="width:100%">
+        </div>
+      
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+      
+        <div class="row">
+          <div class="column">
+            <img class="demo cursor" src="./images/steak.jpg" style="width:100%" onclick="currentSlide(1)" alt="Steak">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./images/ham.jpg" style="width:100%" onclick="currentSlide(2)" alt="Ham">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./images/fish.jpg" style="width:100%" onclick="currentSlide(3)" alt="Fish">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./images/chicken.jpg" style="width:100%" onclick="currentSlide(4)" alt="Chicken">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./images/nuggets.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nuggets">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./images/hemburger.jpg" style="width:100%" onclick="currentSlide(6)" alt="Hamburgers">
+          </div>
+        </div>
+      </div>
+</main>
+    <footer>
+    </footer>
+</body>
+</html>
