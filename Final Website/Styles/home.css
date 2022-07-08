@@ -47,7 +47,14 @@ body main h1 {
 
 .images {
     width: 100%;
+    border: solid black 5px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px blue;
+}
 
+.images:hover {
+    opacity: .6;
+    transform: scale(1.03);
 }
 
 ul.b {
@@ -109,11 +116,22 @@ main div ul li, main div p, main p {
 main div h3 {
     font-family: Helvetica, sans-serif;
     padding-left: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.abc:hover, h3:hover{
+    color: white;
+}
+
+.abc{
+    color:black;
 }
 
 main p {
     font-weight: bold;
     letter-spacing: 1px;
+    padding-left: 7px;
 }
 
 li {
@@ -172,4 +190,30 @@ form.button::after {
 
 .center {
     text-align: center;
+}
+
+.page2img{
+    width: 100%;
+}
+
+.Secondgrid{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2px;
+    grid-gap: 7px;
+}
+
+.link1{
+    border: solid black 5px;
+    text-align: center;
+    width: fit-content;
+    margin: 1em auto;
+}
+
+.link2{
+    border: solid black 5px;
+    text-align: center;
+    width: fit-content;
+    margin: 1em auto;
 }
