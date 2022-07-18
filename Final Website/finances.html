@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Styles/home.css">
+    <link rel="stylesheet" href="./Styles/finances.css">
     <title>Finances</title>
 </head>
 <body>
@@ -20,8 +21,59 @@
         </nav>
     </header>
 
-    <main>
+    <main class="finance_grid">
+        <h1><u>Finances</u></h1>
 
+        <img class="image1" src="./images/bestMortgage.PNG" alt="Best Mortgage">
+        <div>
+            <h3><u>Credit Score and Intrest</u></h3>
+            <p class="text2">The credit score people hold tends to be vital for them when buying cars, boats, houses, etc. And for our view on the matter as long as your credit score isn't terrible, or if you can give a valid reason for a bad score, we can work with you. We want you to have the most comfort possible with a budget you can work with. Credit scores from 500 to 600 may have more than those between 600 and 700, but it won't be unreasonable. And of course, credit scores of 700 to 800 will get the lowest interest we can provide.</p>
+            <h3><u>Down Payment</u></h3>
+            <p class="text2">The down payment can be debated for every purchase.  Your credit score will not affect the down payment and those that have served in the military stop will receive further benefits.  Keen Eyes Real Estate does everything we can to ensure satisfaction to all patronages.  </p>
+        </div>
+        <div class="both">
+            <h3><u>Bank and Credit Union Tie Ups</u></h3>
+            <p class="text2">Keen Eye’s Real Estate has Many types with banks credit unions and other architectural websites. To list just a few,  we have teamed with Bank of America, Wells Fargo, and US Bank/US Bancorp for our Bank tie-ups.  We also have Alliant Credit Union, Navy Federal Credit Union, and First Tech Federal Credit Union as our main Credit Union tie-ups.  Lastly, Keen Eye’s Real Estate is teamed with Ark Shelter and MYFCOHouse for professional architectural advice.</p>
+        </div>
+        <h2 class="both"><u>Please fill out the form below to see if you are prequalified for your dream home!</u></h2>
+    
+        <div class="both">
+            <p class="text1">Here we have a form that will automatically let you know if you are eligible to pre-order a house or plot of land.  We know people will often be under stress with time and due dates.  We set up this application to save time out of your day for your convenience.</p>
+        </div>
+        <div id="feedback" ></div>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="user_name">
+                </li>
+                <li>
+                  <label for="BirthDate">Date of Birth:</label>
+                  <input type="number" id="BirthDate" name="user_DoB">
+                </li>
+                <li>
+                    <label for="SSN">Social Security Number:</label>
+                    <input type="number" id="SSN" name="user_SSN">
+                </li>
+                <li>
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="user_address">
+                </li>
+                <li>
+                    <label for="phone">Phone Number:</label>
+                    <input type="number" id="phone" name="user_phone">
+                </li>
+                <li>
+                  <label for="msg">Message:</label>
+                  <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <li class="button">
+                    <button type="submit">Send your message</button>
+                </li>
+            </ul>
+        </form>
+        <img class="image2" src="./images/HandShake.jpg" alt="Hand Shake">
+        
     </main>
 
     <footer>
@@ -39,6 +91,23 @@
             </a>
         </div>
     </footer>
+    <script>
+         // get the feedback div element so we can do something with it.
+    const feedbackElement = document.getElementById('feedback');
+    // get the form so we can read what was entered in it.
+    const formElement = document.forms[0];
+    // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+    formElement.addEventListener('submit', function(e) {
+        // stop the form from doing the default action.
+        e.preventDefault();
+        // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+        // make the feedback element visible.
+        feedbackElement.style.display = "block";
+        // add a class to move everything down so our message doesn't cover it.
+        document.body.classList.toggle('moveDown');
+    });
+    </script>
 </div>
 </body>
 </html>
